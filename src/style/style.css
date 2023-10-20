@@ -22,3 +22,46 @@ body {
   flex-basis: 360px;
   background-color: #fff;
 }
+
+.container-vending-machine {
+  padding: 31px 27px 28px;
+}
+
+.container-vending-machine .list-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 12px;
+}
+
+.list-item li {
+  border-radius: 10px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+}
+
+.list-item .btn-item {
+  width: 100%;
+  padding: 11px 12px 9px;
+}
+
+.list-item img {
+  width: 36px;
+  height: 65px;
+  margin: 0 auto;
+}
+
+.list-item .title-item {
+  display: block;
+  font-size: 9px;
+  padding: 5px 15px;
+  text-align: center;
+  padding: 7px 0;
+}
+
+.list-item .txt-price {
+  display: block;
+  font-size: 12px;
+  padding: 5px 15px;
+  color: #fff;
+  background-color: #6327fe;
+  border-radius: 50px;
+}
