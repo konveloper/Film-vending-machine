@@ -23,6 +23,7 @@ body {
   background-color: #fff;
 }
 
+/* 자판기 화면 */
 .container-vending-machine {
   padding: 31px 27px 28px;
 }
@@ -64,4 +65,18 @@ body {
   color: #fff;
   background-color: #6327fe;
   border-radius: 50px;
+}
+
+/* 구입 관련 정보 */
+.container-vending-machine .container-buy {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.container-buy .info-balance,
+.container-buy .input-put,
+.container-buy .list-item-staged {
+  grid-column: 1/3;
 }
