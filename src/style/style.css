@@ -1,5 +1,11 @@
+:root {
+  --main: #ffc400;
+  --sub: #eeeeee;
+  --grey: #bdbdbd;
+}
+
 body {
-  background-color: #eae8fe;
+  background-color: var(--main);
 }
 
 #app {
@@ -14,7 +20,7 @@ body {
 .title > img {
   position: absolute;
   width: 436px;
-  top: 0;
+  top: 30px;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -51,7 +57,7 @@ body {
 
 .list-item img {
   width: 36px;
-  height: 65px;
+  height: 60px;
   margin: 0 auto;
 }
 
@@ -65,10 +71,10 @@ body {
 
 .list-item .txt-price {
   display: block;
-  font-size: 12px;
   padding: 5px 15px;
-  color: #fff;
-  background-color: #6327fe;
+  font-size: 10px;
+  font-weight: 700;
+  background-color: var(--main);
   border-radius: 50px;
 }
 
@@ -93,11 +99,12 @@ body {
   border-radius: 5px;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
   font-size: 13px;
+  font-weight: 700;
 }
 
 .container-buy .info-balance {
   padding: 8px;
-  background-color: #eae8fe;
+  background-color: var(--sub);
   font-size: 14px;
 }
 
@@ -107,26 +114,25 @@ body {
 
 .container-buy .input-put {
   padding: 6px 8px;
-  border: 1px solid #bdbdbd;
+  border: 1px solid var(--grey);
 }
 
 .container-buy .input-put::placeholder {
   font-size: 13px;
-  color: #bdbdbd;
+  color: var(--grey);
 }
 
 .list-item-staged {
   height: 106px;
   padding: 12px;
   overflow-y: scroll;
-  background-color: #eae8fe;
+  background-color: var(--sub);
   border-radius: 5px;
-  border: 1px solid #bdbdbd;
+  border: 1px solid var(--grey);
 }
 
 .container-buy .btn-get {
-  background-color: #6327fe;
-  color: #fff;
+  background-color: var(--main);
 }
 
 /* 나의 정보 */
@@ -139,7 +145,7 @@ body {
 
 .container-my-money .info-my-money {
   padding: 10px;
-  background-color: #eae8fe;
+  background-color: var(--sub);
   border-radius: 5px;
 }
 
@@ -147,7 +153,7 @@ body {
   float: right;
 }
 
-/* 확득한 음료 */
+/* 확득한 필름 */
 .container-my-info .container-my-item {
   background-color: #fff;
   height: 474px;
