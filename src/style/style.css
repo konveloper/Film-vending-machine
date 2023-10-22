@@ -55,7 +55,13 @@ body {
   padding: 11px 12px 9px;
 }
 
-.list-item img {
+.list-item .btn-item:active {
+  outline: 3px soild var(--main);
+  border-radius: 10px;
+}
+
+.list-item .img-item {
+  display: block;
   width: 36px;
   height: 60px;
   margin: 0 auto;

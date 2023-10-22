@@ -8,25 +8,25 @@
   {
     "name": "Color plus",
     "cost": 10000,
-    "img": "Colorplus.png",
+    "img": "colorplus.png",
     "count": 5
   },
   {
     "name": "Kodak Gold",
     "cost": 10000,
-    "img": "gold.png",
+    "img": "gold.jpg",
     "count": 5
   },
   {
     "name": "Portra",
     "cost": 10000,
-    "img": "portra.png",
+    "img": "portra.jpg",
     "count": 5
   },
   {
     "name": "Pro image",
     "cost": 10000,
-    "img": "proimage.png",
+    "img": "proimage.jpg",
     "count": 5
   },
   {
