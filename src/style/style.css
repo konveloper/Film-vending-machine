@@ -1,6 +1,6 @@
 :root {
   --main: #ffc400;
-  --sub: #eeeeee;
+  --sub: #ffecb3;
   --grey: #bdbdbd;
 }
 
@@ -149,7 +149,7 @@ body {
   border-radius: 5px;
 }
 
-.container-buy .btn-change,
+.container-buy .btn-return,
 .container-buy .btn-put,
 .container-buy .btn-get {
   border-radius: 5px;
