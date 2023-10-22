@@ -113,11 +113,15 @@ body {
 }
 
 .container-buy .list-item-staged {
+  height: 106px;
+  padding: 12px;
+  overflow-y: scroll;
   background-color: #eae8fe;
+  border-radius: 5px;
+  border: 1px solid #bdbdbd;
 }
 
 .container-buy .btn-get {
   background-color: #6327fe;
   color: #fff;
-  height: 106px;
 }
