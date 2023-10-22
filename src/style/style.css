@@ -22,6 +22,9 @@ body {
 .container-vending-machine,
 .container-my-info {
   flex-basis: 360px;
+}
+
+.container-vending-machine {
   background-color: #fff;
 }
 
@@ -124,4 +127,28 @@ body {
 .container-buy .btn-get {
   background-color: #6327fe;
   color: #fff;
+}
+
+/* 나의 정보 */
+/* 소지금 */
+.container-my-info .container-my-money {
+  padding: 9px 27px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+.container-my-info .container-my-money {
+  padding: 9px 27px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+.container-my-money .info-my-money {
+  padding: 6px 10px;
+  background-color: #eae8fe;
+  border-radius: 5px;
+}
+
+.container-my-money .txt-my-money {
+  float: right;
 }
