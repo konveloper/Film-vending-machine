@@ -1,37 +1,37 @@
 [
   {
     "name": "Fuji",
-    "cost": 10000,
+    "cost": 1000,
     "img": "fuji.png",
     "count": 5
   },
   {
     "name": "Color plus",
-    "cost": 10000,
+    "cost": 1000,
     "img": "colorplus.png",
     "count": 5
   },
   {
     "name": "Kodak Gold",
-    "cost": 10000,
+    "cost": 1000,
     "img": "gold.jpg",
     "count": 5
   },
   {
     "name": "Portra",
-    "cost": 10000,
+    "cost": 1000,
     "img": "portra.jpg",
     "count": 5
   },
   {
     "name": "Pro image",
-    "cost": 10000,
+    "cost": 1000,
     "img": "proimage.jpg",
     "count": 5
   },
   {
     "name": "Ultramax",
-    "cost": 10000,
+    "cost": 1000,
     "img": "ultramax.png",
     "count": 5
   }
