@@ -103,6 +103,13 @@ class Vendingmachine {
           // 아이템의 재고 갯수를 줄인다
           targetEl.dataset.count--;
           // 재고가 모두 소진된 경우 품절 표시
+          if (parseInt(targetEl.dataset.count) === 0) {
+            targetEl.parentElement.classList.add('sold-out');
+            const warning = document.createElement('em');
+            warning.textContent = '해당 상품은 품절입니다.';
+            warning.classList.add('ir');
+            targetEl.parentElement.insertBefore(warning, targetEl);
+          }
         } else {
           alert('잔액이 부족합니다.');
         }
