@@ -50,7 +50,7 @@ class Vendingmachine {
       if (balanceVal) {
         this.myMoney.textContent =
           new Intl.NumberFormat().format(balanceVal + myMoneyVal) + ' 원';
-        this.balance.textContent = '';
+        this.balance.textContent = ' 원';
       }
     });
   }
