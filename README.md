@@ -1,7 +1,8 @@
 # 📸 나만의 필름 자판기(Vanila JavaScript) 📸 <br>
-🔗 [구현 페이지](#)
+🔗 [구현 페이지](https://konveloper.github.io/Film-vending-machine/index.html)
 * 돈을 입금하여 소지금을 이용해 원하는 아이템을 뽑는 웹 페이지입니다.
 * 저는 필름 카메라로 사진 찍는 것을 좋아하는데요! 대개 필름은 인터넷에서만 구할 수 있고 가격이 높아요. 쉽게 살 수 있고 저렴한 값으로 판매하는 필름 자판기가 있으면 좋겠다는 마음을 담아 만들어보았습니다.😎
+<img width="1231" alt="스크린샷 2023-12-07 오후 4 38 11" src="https://github.com/konveloper/Film-vending-machine/assets/109451148/89915f93-5a4c-49e6-80cc-9690a1b54d26">
 
 ## 기능 명세
 1. 판매할 아이템에 대한 데이터는 따로 분리되어 있어야 합니다. (혹은 API로 받아야 합니다.)
